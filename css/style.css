@@ -85,7 +85,7 @@ button:hover{
     position: relative;
     bottom: 10px;
 }
-@media (max-width:375px){
+@media (max-width:425px){
     main{
         margin-top: 1rem;
     }
@@ -122,4 +122,3 @@ button:hover{
         bottom: 5px;
     }
 }
-
