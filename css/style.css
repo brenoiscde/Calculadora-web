@@ -122,3 +122,42 @@ button:hover{
         bottom: 5px;
     }
 }
+@media (max-width:425px){
+    main{
+        margin-top: 1rem;
+    }
+    button{
+        font-size: 2rem;
+        width: 75px;
+        height: 75px;
+        border-radius: 7px;
+    }
+    #label{
+        width: 90%;
+        height: 5rem;
+        font-size: 3rem;
+        
+    }
+    .botoes{
+        width: 90%;
+        padding: 1rem;
+    }
+    button + button{
+        margin: 0 0 10px 8px;
+    }
+    .button{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .button-reset{
+        width: 160px;
+    }
+    .button-resultado{
+        width: 160px;
+    }
+    .button-del{
+        position: relative;
+        bottom: 5px;
+    }
+}
+
