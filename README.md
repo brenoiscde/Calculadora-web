@@ -18,5 +18,5 @@ Este é um projeto simples de uma calculadora desenvolvida utilizando HTML, CSS 
 
 1. **Clone o Repositório**
    ```bash
-   git clone https://github.com/seu-usuario/calculadora-web.git
-   cd calculadora-web
+   git clone https://github.com/brenoiscde/Calculadora-web.git
+   cd Calculadora-web
