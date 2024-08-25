@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <p id="label"></p>
+        <section class="botoes">
+            <div class="button">
+                <button onclick="mostrarNum('7')">7</button>
+                <button onclick="mostrarNum('8')">8</button>
+                <button onclick="mostrarNum('9')">9</button>
+                <button onclick="deletar()" class="button-del">DEL</button>
+            </div>
+            <div class="button">
+                <button onclick="mostrarNum('4')">4</button>
+                <button onclick="mostrarNum('5')">5</button>
+                <button onclick="mostrarNum('6')">6</button>
+                <button onclick="mostrarNum('+')">+</button>
+            </div>
+            <div class="button">
+                <button onclick="mostrarNum('1')">1</button>
+                <button onclick="mostrarNum('2')">2</button>
+                <button onclick="mostrarNum('3')">3</button>
+                <button onclick="mostrarNum('-')">-</button>
+            </div>
+            <div class="button">
+                <button onclick="mostrarNum('.')">.</button>
+                <button onclick="mostrarNum('0')">0</button>
+                <button onclick="mostrarNum('/')">/</button>
+                <button onclick="mostrarNum('*')">x</button>
+            </div>
+            <div class="button-ultimo">
+                <button onclick="reset()" class="button-reset">RESET</button>
+                <button onclick="calcular()" class="button-resultado">=</button>
+            </div>
+        </section>
+    </main>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
